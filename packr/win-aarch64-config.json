@@ -1,6 +1,6 @@
 {
   "classPath": [
-    "Jirenyte.jar"
+    "Veskar.jar"
   ],
   "mainClass": "net.runelite.launcher.Launcher",
   "vmArgs": [
