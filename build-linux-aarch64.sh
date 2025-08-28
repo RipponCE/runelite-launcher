@@ -26,7 +26,7 @@ echo "$LINUX_AARCH64_CHKSUM linux_aarch64_jre.tar.gz" | sha256sum -c
 # Note: Host umask may have checked out this directory with g/o permissions blank
 chmod -R u=rwX,go=rX appimage
 # ...ditto for the build process
-chmod 644 build/libs/Veskare.jar
+chmod 644 build/libs/Veskar.jar
 
 cp native/build-aarch64/src/Veskar build/linux-aarch64/
 cp build/libs/Veskar.jar build/linux-aarch64/
